@@ -3,6 +3,8 @@ namespace Opg\Refunds\Log;
 
 use Throwable;
 
+use Zend\Log\Logger;
+
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 
