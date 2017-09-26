@@ -15,8 +15,6 @@ class Logstash extends Formatter\Base implements Formatter\FormatterInterface
     {
         $event = array_merge($event, [
             '@version' => 1,
-            'host' => isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : 'Unknown',
-            'uri' => isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : 'Unknown',
         ]);
 
         if (isset($event['timestamp'])) {
