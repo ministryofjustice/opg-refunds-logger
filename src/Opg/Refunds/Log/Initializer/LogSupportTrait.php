@@ -5,7 +5,7 @@ use UnexpectedValueException;
 
 use Zend\Log\Logger;
 
-class LogSupportTrait
+trait LogSupportTrait
 {
     private $logger;
 
