@@ -28,7 +28,7 @@ For example
 ```php
 <?php
 
-use Opg\Refunds\Log\Initialize;
+use Opg\Refunds\Log\Initializer;
 
 class Example implements Initializer\LogSupportInterface
 {
